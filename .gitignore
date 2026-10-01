@@ -1,0 +1,8 @@
+data/*.parquet
+data/*.duckdb
+outputs/*.duckdb
+outputs/*.parquet
+__pycache__/
+.pytest_cache/
+*.pyc
+outputs/metrics.json

@@ -1,0 +1,14 @@
+[
+  "tests/test_aggregation.py::test_aggregation_reconciles_with_flags",
+  "tests/test_aggregation.py::test_multi_alert_tiv_sums",
+  "tests/test_join.py::test_boundary_excluded_strict_contains",
+  "tests/test_join.py::test_empty_candidate_region",
+  "tests/test_join.py::test_known_point_inside_flagged",
+  "tests/test_join.py::test_point_outside_not_flagged",
+  "tests/test_latency.py::test_latency_ms_computation",
+  "tests/test_latency.py::test_latency_summary_empty",
+  "tests/test_latency.py::test_latency_summary_percentiles",
+  "tests/test_stream.py::test_latency_nonnegative_and_flag_after_ingest",
+  "tests/test_stream.py::test_partition_assignment_deterministic",
+  "tests/test_stream.py::test_stream_returns_all_alerts_in_order"
+]

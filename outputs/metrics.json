@@ -1,0 +1,100 @@
+{
+  "policies_joined": 1000000,
+  "sampling": "none \u2014 full 1M-row table joined via STRtree",
+  "alerts_streamed": 12,
+  "total_policy_flags": 217577,
+  "total_exposed_tiv": 65183082748.0,
+  "latency_ms": {
+    "count": 12,
+    "p50_ms": 82.03,
+    "p95_ms": 1065.41,
+    "max_ms": 1245.45,
+    "mean_ms": 251.16
+  },
+  "per_alert": [
+    {
+      "alert_id": "SYN-2026-001",
+      "peril": "hurricane",
+      "flagged_policies": 23964,
+      "exposed_tiv": 7171116597.58,
+      "latency_ms": 81.48
+    },
+    {
+      "alert_id": "SYN-2026-002",
+      "peril": "hurricane",
+      "flagged_policies": 287,
+      "exposed_tiv": 90009115.69,
+      "latency_ms": 28.83
+    },
+    {
+      "alert_id": "SYN-2026-003",
+      "peril": "hurricane",
+      "flagged_policies": 3650,
+      "exposed_tiv": 1096566395.88,
+      "latency_ms": 10.16
+    },
+    {
+      "alert_id": "SYN-2026-004",
+      "peril": "tornado",
+      "flagged_policies": 5937,
+      "exposed_tiv": 1752682366.95,
+      "latency_ms": 19.09
+    },
+    {
+      "alert_id": "SYN-2026-005",
+      "peril": "tornado",
+      "flagged_policies": 5138,
+      "exposed_tiv": 1558838786.3,
+      "latency_ms": 34.74
+    },
+    {
+      "alert_id": "SYN-2026-006",
+      "peril": "flood",
+      "flagged_policies": 27720,
+      "exposed_tiv": 8357526753.59,
+      "latency_ms": 70.78
+    },
+    {
+      "alert_id": "SYN-2026-007",
+      "peril": "flood",
+      "flagged_policies": 8807,
+      "exposed_tiv": 2638559353.66,
+      "latency_ms": 152.36
+    },
+    {
+      "alert_id": "SYN-2026-008",
+      "peril": "wildfire",
+      "flagged_policies": 111344,
+      "exposed_tiv": 33276669437.54,
+      "latency_ms": 918.11
+    },
+    {
+      "alert_id": "SYN-2026-009",
+      "peril": "wildfire",
+      "flagged_policies": 16083,
+      "exposed_tiv": 4839719144.44,
+      "latency_ms": 207.22
+    },
+    {
+      "alert_id": "SYN-2026-010",
+      "peril": "severe_thunderstorm",
+      "flagged_policies": 6181,
+      "exposed_tiv": 1831050538.31,
+      "latency_ms": 82.59
+    },
+    {
+      "alert_id": "SYN-2026-011",
+      "peril": "severe_thunderstorm",
+      "flagged_policies": 8407,
+      "exposed_tiv": 2552074027.06,
+      "latency_ms": 163.11
+    },
+    {
+      "alert_id": "SYN-2026-012",
+      "peril": "hurricane",
+      "flagged_policies": 59,
+      "exposed_tiv": 18270231.0,
+      "latency_ms": 1245.45
+    }
+  ]
+}
