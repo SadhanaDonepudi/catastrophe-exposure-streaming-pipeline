@@ -5,4 +5,3 @@ outputs/*.parquet
 __pycache__/
 .pytest_cache/
 *.pyc
-outputs/metrics.json
